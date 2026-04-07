@@ -1,0 +1,65 @@
+{
+  "jeu-2026-pulse-drift": [
+    {
+      "id": "com-1",
+      "texte": "Le feeling de vitesse est vraiment solide.",
+      "nomUtilisateur": "Sarah Gauthier",
+      "utilisateurId": "u-sarah",
+      "timestamp": "2026-03-20T18:30:00.000Z",
+      "votes": {
+        "u-alex": 1,
+        "u-maya": 1,
+        "u-noah": -1
+      }
+    },
+    {
+      "id": "com-2",
+      "texte": "La piste 3 est superbe, mais les collisions sont un peu severes.",
+      "nomUtilisateur": "Ilyes Benaissa",
+      "utilisateurId": "u-ilyes",
+      "timestamp": "2026-03-22T23:05:00.000Z",
+      "votes": {
+        "u-alex": 1
+      }
+    }
+  ],
+  "jeu-2026-neon-siege": [
+    {
+      "id": "com-1",
+      "texte": "Le tutoriel est clair et la progression fonctionne bien.",
+      "nomUtilisateur": "Alex Cote",
+      "utilisateurId": "u-alex",
+      "timestamp": "2026-03-18T13:15:00.000Z",
+      "votes": {
+        "u-maya": 1,
+        "u-noah": 1
+      }
+    }
+  ],
+  "jeu-2025-echo-ruins": [
+    {
+      "id": "com-1",
+      "texte": "Direction artistique impeccable, bravo a toute l equipe.",
+      "nomUtilisateur": "Maya Roy",
+      "utilisateurId": "u-maya",
+      "timestamp": "2026-03-21T20:40:00.000Z",
+      "votes": {
+        "u-alex": 1,
+        "u-sarah": 1
+      }
+    }
+  ],
+  "jeu-2024-void-runner": [
+    {
+      "id": "com-1",
+      "texte": "Tres difficile mais satisfaisant.",
+      "nomUtilisateur": "Noah Tremblay",
+      "utilisateurId": "u-noah",
+      "timestamp": "2026-03-11T00:00:00.000Z",
+      "votes": {
+        "u-maya": 1,
+        "u-ilyes": -1
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "iuaebhayuvuaeceac",
+    "annee": 2026,
+    "nom": "Pulse Drift",
+    "type": "Course rhythmique",
+    "personnes": [
+      "Alex Côté",
+      "Maya Roy"
+    ],
+    "synopsis": "Un bolide anti-gravite qui derive sur des pistes reactives a la musique.",
+    "motsCles": [
+      "course",
+      "rythme",
+      "multijoueur",
+      "néon"
+    ],
+    "imageUrl": {
+      "vignette": "jeu1.png",
+      "details": []
+    },
+    "plebiscites": [
+      {
+        "uid": "dianfeiunae",
+        "unom": "Noah Gagné"
+      },
+      {
+        "uid": "spoacksanvceivae",
+        "unom": "Alex Côté"
+      }
+    ]
+  },
+  {
+    "id": "urnvairvubhkvarvahvrya",
+    "annee": 2026,
+    "nom": "Neon Siege",
+    "type": "Tower defense",
+    "personnes": [
+      "Ilyes Benaissa",
+      "Sarah Gauthier",
+      "Noah Tremblay"
+    ],
+    "synopsis": "Defendez un noyau quantique contre des vagues de drones dans une ville neon.",
+    "motsCles": [
+      "strategie",
+      "defense",
+      "vagues",
+      "sci-fi"
+    ],
+    "imageUrl": {
+      "vignette": "jeu1.png",
+      "details": []
+    },
+    "plebiscites": [
+      {
+        "uid": "dianfeiunae",
+        "unom": "Noah Gagné"
+      },
+      {
+        "uid": "spoacksanvceivae",
+        "unom": "Sarah Domain"
+      }
+    ]
+
+  },
+  {
+    "id": "acwpomcaeivneavf",
+    "annee": 2025,
+    "nom": "Echo Ruins",
+    "type": "Aventure puzzle",
+    "personnes": [
+      "Maya Roy",
+      "Noah Tremblay"
+    ],
+    "synopsis": "Explorez des ruines sonores ou chaque mecanisme repond a votre voix.",
+    "motsCles": [
+      "puzzle",
+      "aventure",
+      "audio",
+      "enigmes"
+    ],
+    "imageUrl": {
+      "vignette": "jeu1.png",
+      "details": []
+    },
+    "plebiscites": [
+      {
+        "uid": "dianfeiunae",
+        "unom": "Noah Gagné"
+      },
+      {
+        "uid": "spoacksanvceivae",
+        "unom": "Alex Côté"
+      }
+    ]
+
+  },
+  {
+    "id": "croabuyhvuyarbvau",
+    "annee": 2024,
+    "nom": "Void Runner",
+    "type": "Plateforme action",
+    "personnes": [
+      "Alex Cote",
+      "Sarah Gauthier"
+    ],
+    "synopsis": "Sautez entre des plateformes instables dans un monde en desintegration.",
+    "motsCles": [
+      "plateforme",
+      "action",
+      "precision"
+    ],
+    "imageUrl": {
+      "vignette": "jeu1.png",
+      "details": []
+    },
+    "plebiscites": [
+      {
+        "uid": "dianfeiunae",
+        "unom": "Noah Gagné"
+      },
+      {
+        "uid": "spoacksanvceivae",
+        "unom": "Alex Côté"
+      }
+    ]
+  }
+]
