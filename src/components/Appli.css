@@ -1,0 +1,14 @@
+/* ===============================
+   Composant: Appli
+   =============================== */
+.Appli {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .zone-principale {
+    width: min(1200px, 92vw);
+    margin: 1rem auto 2rem;
+    flex: 1;
+  }
+}

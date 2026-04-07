@@ -1,0 +1,16 @@
+/* ===============================
+   Composant: Pied2Page
+   =============================== */
+.Pied2Page {
+  width: min(1200px, 92vw);
+  margin: 0 auto 1.5rem;
+  border-top: 1px solid #2a3f63;
+  padding-top: 0.9rem;
+  
+  p {
+    margin: 0;
+    text-align: center;
+    color: var(--clr-texte-secondaire);
+    font-size: 0.83rem;
+  }
+}

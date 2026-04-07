@@ -1,0 +1,73 @@
+/* ===============================
+   Composant: Entete
+   =============================== */
+.Entete {
+  width: min(1200px, 92vw);
+  margin: 1.5rem auto 0.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .bloc-marque {
+    h1 {
+      margin: 0;
+      font-family: "Bebas Neue", sans-serif;
+      letter-spacing: 0.08em;
+      font-size: clamp(2rem, 6vw, 3.6rem);
+      line-height: 1;
+    }
+
+    .tag {
+      margin: 0;
+      color: var(--clr-fond-accent-2);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      font-size: 0.85rem;
+    }
+  }
+
+  .zone-utilisateur {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: linear-gradient(
+      135deg,
+      rgba(17, 29, 52, 0.95),
+      rgba(11, 19, 33, 0.95)
+    );
+    border: 1px solid var(--clr-bordure);
+    border-radius: 999px;
+    padding: 0.4rem 0.5rem;
+    
+    .avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--clr-fond-accent-2);
+    }
+
+    .nom-utilisateur {
+      font-size: 0.86rem;
+      color: var(--clr-texte-secondaire);
+      max-width: 180px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .btn-secondaire {
+      border: none;
+      border-radius: 999px;
+      padding: 0.5rem 0.9rem;
+      background-color: #263754;
+      color: var(--clr-texte-principal);
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+}
+
