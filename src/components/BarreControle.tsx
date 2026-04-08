@@ -30,11 +30,11 @@ export default function BarreControle(props: IEtatAnnee & {galerie: IJeu[]}) {
 			<div className="groupe">
 				<label htmlFor="tri">Tri</label>
 				<select id="tri" name="tri">
-					<option>Aleatoire</option>
-					<option>Alpha ascendant</option>
-					<option>Alpha descendant</option>
-					<option>Likes ascendant</option>
-					<option>Likes descendant</option>
+					<option value={'aleatoire'}>Aleatoire</option>
+					<option value={'alpha-asc'}>Alpha ascendant</option>
+					<option value={'alpha-desc'}>Alpha descendant</option>
+					<option value={'num-asc'}>Likes ascendant</option>
+					<option value={'num-desc'}>Likes descendant</option>
 				</select>
 			</div>
 

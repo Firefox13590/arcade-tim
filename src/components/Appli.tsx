@@ -24,7 +24,7 @@ export default function Appli() {
         }
 
         lireJeux();
-    }, [annee])
+    }, [annee]);
 
 
     return (
