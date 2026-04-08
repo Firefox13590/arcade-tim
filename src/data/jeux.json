@@ -27,6 +27,10 @@
       {
         "uid": "spoacksanvceivae",
         "unom": "Alex Côté"
+      },
+      {
+        "uid": "poaenvuaauhybva",
+        "unom": "Maya Persona"
       }
     ]
   },
@@ -48,7 +52,7 @@
       "sci-fi"
     ],
     "imageUrl": {
-      "vignette": "jeu1.png",
+      "vignette": "jeu2.png",
       "details": []
     },
     "plebiscites": [
@@ -80,7 +84,7 @@
       "enigmes"
     ],
     "imageUrl": {
-      "vignette": "jeu1.png",
+      "vignette": "jeu3.png",
       "details": []
     },
     "plebiscites": [
@@ -89,8 +93,16 @@
         "unom": "Noah Gagné"
       },
       {
+        "uid": "poaenvuaauhybva",
+        "unom": "Maya Persona"
+      },
+      {
         "uid": "spoacksanvceivae",
-        "unom": "Alex Côté"
+        "unom": "Sarah Domain"
+      },
+      {
+        "uid": "eafciaecioapvn",
+        "unom": "Ilyes Jostar"
       }
     ]
 
@@ -111,14 +123,10 @@
       "precision"
     ],
     "imageUrl": {
-      "vignette": "jeu1.png",
+      "vignette": "jeu4.png",
       "details": []
     },
     "plebiscites": [
-      {
-        "uid": "dianfeiunae",
-        "unom": "Noah Gagné"
-      },
       {
         "uid": "spoacksanvceivae",
         "unom": "Alex Côté"
