@@ -1,14 +1,16 @@
 import './BarreControle.css'
 
 
-export default function BarreControle() {
-
+export default function BarreControle(props: IEtatAnnee & {galerie: IJeu[]}) {
+	const nbJeux = props.galerie.length;
+	// console.log(props);
 
 	return (
 		<section className="BarreControle">
 			<div className="groupe">
 				<label htmlFor="annee">Annee</label>
-				<select id="annee" name="annee">
+				<select id="annee" name="annee" value={props.annee}
+				onChange={(e) => props.setAnnee(Number(e.target.value))}>
 					<option>2026</option>
 					<option>2025</option>
 					<option>2024</option>
@@ -36,7 +38,7 @@ export default function BarreControle() {
 				</select>
 			</div>
 
-			<p className="resume">4 jeu(x) affiche(s)</p>
+			<p className="resume">{props.galerie.length == 1 ? (<>1 jeu affiché</>) : (<>{nbJeux} jeux affichés</>)}</p>
 		</section>
 	)
 }

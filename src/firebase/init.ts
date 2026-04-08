@@ -13,3 +13,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
+
+// Nom des collections utilisées
+export const COLLECTION_JEUX =  "arcade-tim-jeux"
+export const COLLECTION_UTILISATEURS =  "arcade-tim-utilisateurs"

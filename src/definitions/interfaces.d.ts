@@ -2,19 +2,24 @@
 
 
 interface IJeu {
-    id: string;
-    annee: number;
-    nom: string;
-    type: string;
-    personnes: string[];
-    synopsis: string;
-    motsCles: string[];
+    id: string,
+    annee: number,
+    nom: string,
+    type: string,
+    personnes: string[],
+    synopsis: string,
+    motsCles: string[],
     imageUrl: {
-        vignette: string;
-        details: [];
-    };
+        vignette: string,
+        details: [],
+    },
     plebiscites: {
-        uid: string;
-        unom: string;
-    }[];
+        uid: string,
+        unom: string,
+    }[],
+}
+
+interface IEtatAnnee{
+    annee: number,
+    setAnnee: React.Dispatch<React.SetStateAction<number>>,
 }
